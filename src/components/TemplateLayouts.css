@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.template-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.template-box {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.template-box:hover .template-hover-container {
+    display: block;
+}
+
+.template-hover-container {
+  display: none;
+  width: 30%;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-left: 20px;
+}
+
+.template-tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 10px;
+}
+
+.box-wrapper:hover {
+  background-color: "red";
+}
+
+.template-box-inner {
+  padding: 10px;
+  background-color: #deee;
+  margin: 10px;
+}
+
+.template-tooltip:hover {
+  background-color: #fff;
+}
+
+.seciton-wrapper {
+  background: red;
+}
